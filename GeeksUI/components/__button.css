@@ -1,0 +1,71 @@
+/* 
+  Author joey@tech-center.com (Joey Cadieux)
+  ----------------------------------
+  Geeks UI Css Framework
+  Light Css Components Library For Developers 
+ */
+
+:root {
+	--geeks_ui-color: white;
+	--geeks_ui-base: lightslategray;
+	--geeks_ui-info: DeepSkyBlue;
+	--geeks_ui-secondary: gray;
+	--geeks_ui-warning: firebrick;
+	--geeks_ui-primary: DodgerBlue;
+	--geeks_ui-padding: 15 32px;
+	--geeks_ui-display: inline-block;
+	--geeks_ui-font-size: 16px;
+	--geeks_ui-text-decoration: none;
+	--geeks_ui-border: none;
+	--geeks_ui-text-align: center;
+}
+
+btn __button base {
+	color: var(--geeks_ui-base);
+	border: var(--geeks_ui-border);
+	padding: var(--geeks_ui-padding);
+	text-align: var(--geeks_ui-text-align);
+	text-decoration: var(--geeks_ui-text-decoration);
+	display: var(--geeks_ui-display);
+	font-size: var(--geeks_ui-font-size);
+}
+
+btn __button secondary {
+	color: var(--geeks_ui-base);
+	border: var(--geeks_ui-border);
+	padding: var(--geeks_ui-padding);
+	text-align: var(--geeks_ui-text-align);
+	text-decoration: var(--geeks_ui-text-decoration);
+	display: var(--geeks_ui-display);
+	font-size: var(--geeks_ui-font-size);
+}
+
+btn __button primary {
+	color: var(--geeks_ui-primary);
+	border: var(--geeks_ui-border);
+	padding: var(--geeks_ui-padding);
+	text-align: var(--geeks_ui-text-align);
+	text-decoration: var(--geeks_ui-text-decoration);
+	display: var(--geeks_ui-display);
+	font-size: var(--geeks_ui-font-size);
+}
+
+btn __button info {
+	color: var(--geeks_ui-info);
+	border: var(--geeks_ui-border);
+	padding: var(--geeks_ui-padding);
+	text-align: var(--geeks_ui-text-align);
+	text-decoration: var(--geeks_ui-text-decoration);
+	display: var(--geeks_ui-display);
+	font-size: var(--geeks_ui-font-size);
+}
+
+btn __button warning {
+	color: var(--geeks_ui-warning);
+	border: var(--geeks_ui-border);
+	padding: var(--geeks_ui-padding);
+	text-align: var(--geeks_ui-text-align);
+	text-decoration: var(--geeks_ui-text-decoration);
+	display: var(--geeks_ui-display);
+	font-size: var(--geeks_ui-font-size);
+}
